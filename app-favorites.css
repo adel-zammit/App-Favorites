@@ -44,30 +44,33 @@ margin: 100px;
 
 .align-items{
     display: flex;
-    background: rgb(0, 255, 115);
-    height: 50%;
     align-items: initial;
-    padding: 50px;}
+    background: #17ffcd;
+    height: 50%;
+    padding: 200px;
+    font-family: 'Roboto Mono', monospace;
+}
 
 .align-items-left{
     height: 100%;
     width: 100%;
+    margin: 10px;
     background: rgb(255, 255, 255);
- 
-    margin: 1px;
 }
 
 .align-items-center{
     height: 100%;
     width: 100%;
     background: rgb(255, 255, 255);
+    margin: 10px;
 }
+
 
 .align-items-right{
     height: 100%;
     width: 100%;
+    margin: 10px;
     background: rgb(255, 255, 255);
-    margin: 1px;
 }
 
 

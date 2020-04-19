@@ -1,0 +1,119 @@
+body{
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    background-color: rgb(51, 175, 2);
+    height: 60px;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(19, 194, 3);
+  }
+
+
+  .search-container button {
+    display: block;
+    width: 100%;
+    height: 20px;
+  }
+
+  .search-container{
+    display: block;
+    text-align: left;
+    width: 100%;
+    padding: 10px;
+  }
+
+.contenu-left{
+    position: absolute;
+    width: 30%;
+    left: 5%;
+    top: 250px;
+}
+
+.contenu-right{
+    position: absolute;
+    width: 30%;
+    left: 65%;
+    top: 250px;
+
+}
+
+.contenu-center{
+position: absolute;
+width: 20%;
+left: 40%;
+height: 300px;
+top: 250px;
+}
+
+.entete{
+  position: absolute;
+width: 90%;
+left: 10%;
+top: 70px;
+
+}
+
+img { 
+    width: 90%;
+    padding: 20px;
+ margin: 1px;
+}
+
+.txt1{
+   position: relative;
+}
+
+.txt-left{
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+    font-size: 18px;
+    top: 500px;
+}
+
+.txt-right{
+    position: absolute;
+    bottom: 8px;
+    right: 20%;
+    font-size: 18px;  
+    top: 550px;
+    height: 100px;
+}
+
+button{
+    height: 100px;
+
+}
+.boutton{
+    border-radius: 80%;
+    animation-timing-function: 2;
+
+    background-color: lawngreen;
+
+}
+button:hover{
+    background-color: lightcyan;
+}
+
+
+.logo{
+  border: 0px;
+  max-width: 100px;
+height: 10px;
+}
